@@ -1,3 +1,2 @@
 all:
-	VERSION=$(git describe --tags --always --dirty); \
-	go build -ldflags="-X main.version=$(VERSION)" ./...
+	go build -v -ldflags="-X 'main.version=`git describe --tags --abbrev=0`'"
