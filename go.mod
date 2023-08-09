@@ -1,3 +1,3 @@
 module crg.eti.br/go/shiritori
 
-go 1.20
+go 1.21
